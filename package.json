@@ -1,0 +1,15 @@
+{
+  "name": "flood-forcast",
+  "version": "1.0.0",
+  "description": "static frontend for the flood forcast project",
+  "main": "login.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/index.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/index.css --watch"
+  },
+  "author": "Zubair Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
