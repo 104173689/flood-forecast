@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <title>Weather Page</title>
+    <style>
+      .weather-circle {
+        background-image: url('./images/step\ 8.png');
+        height: 277px;
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-[#2F3419] h-[100vh] w-full relative overflow-hidden">
+      <img
+        src="./images/weather-top-circle.svg"
+        class="absolute top-[-6%] right-[-2%]"
+        alt=""
+      />
+      <img
+        src="./images/weather-bottom-left-img.svg"
+        class="absolute bottom-[-75%] left-[-9%]"
+        alt=""
+      />
+      <img
+        src="./images/weather-middle-img.svg"
+        class="absolute top-[50%] right-[0%] h-80"
+        style="transform: translate(0%, -50%)"
+        alt=""
+      />
+      <img
+        src="./images/weather-bottom-right-gradient.svg"
+        class="absolute top-[80%] right-[0%]"
+        style="transform: translate(0%, -80%)"
+        alt=""
+      />
+      <img
+        src="./images/weather-bottom-right-logo.svg"
+        class="absolute top-[95%] right-[0%]"
+        style="transform: translate(0%, -95%)"
+        alt=""
+      />
+
+      <div class="container mx-auto">
+        <h1 class="text-[#FFFFFF] text-5xl font-extrabold mt-8">Weather</h1>
+
+        <p class="text-[#FFFFFF] text-3xl font-light mt-6">St kilda</p>
+        <div class="flex justify-between items-center">
+          <div class="flex justify-around items-center mt-6">
+            <img
+              src="./images/weather-sun-cloudy-img.svg"
+              class="h-28"
+              alt=""
+            />
+            <p class="text-8xl text-[#55634E] tracking-widest">23°C|F</p>
+          </div>
+          <div>
+            <p class="text-[#A0A29D] tracking-widest text-[18px]">
+              Precipitation: 0%
+            </p>
+            <p class="text-[#A0A29D] tracking-widest text-[18px]">
+              Humidity: 81%
+            </p>
+            <p class="text-[#A0A29D] tracking-widest text-[18px]">Wind 5km/h</p>
+            <p class="text-[#FFFFFF] font-bold tracking-widest text-[18px]">
+              H:24° L:18°
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-between items-center">
+          <div class="weather-circle flex justify-center items-center">
+            <div class="self-start mt-16">
+              <p class="text-[#FFFFFF] text-6xl">29°</p>
+              <p
+                class="text-[#55634E] font-bold tracking-widest text-[18px] mt-8"
+              >
+                H:24° L:18°
+              </p>
+              <p class="text-[#FFFFFF] text-2xl font-bold">Friday</p>
+            </div>
+            <img
+              src="./images/cloud-circle-img.svg"
+              class="h-[85px] self-start mt-12"
+              alt=""
+            />
+          </div>
+          <div class="weather-circle flex justify-center items-center">
+            <div class="self-start mt-16">
+              <p class="text-[#FFFFFF] text-6xl">29°</p>
+              <p
+                class="text-[#55634E] font-bold tracking-widest text-[18px] mt-8"
+              >
+                H:24° L:18°
+              </p>
+              <p class="text-[#FFFFFF] text-2xl font-bold">Friday</p>
+            </div>
+            <img
+              src="./images/cloud-circle-img.svg"
+              class="h-[85px] self-start mt-12"
+              alt=""
+            />
+          </div>
+          <div class="weather-circle flex justify-center items-center">
+            <div class="self-start mt-16">
+              <p class="text-[#FFFFFF] text-6xl">29°</p>
+              <p
+                class="text-[#55634E] font-bold tracking-widest text-[18px] mt-8"
+              >
+                H:24° L:18°
+              </p>
+              <p class="text-[#FFFFFF] text-2xl font-bold">Friday</p>
+            </div>
+            <img
+              src="./images/cloud-circle-img.svg"
+              class="h-[85px] self-start mt-12"
+              alt=""
+            />
+          </div>
+          <div class="weather-circle flex justify-center items-center z-10">
+            <div class="self-start mt-16">
+              <p class="text-[#FFFFFF] text-6xl">29°</p>
+              <p
+                class="text-[#55634E] font-bold tracking-widest text-[18px] mt-8"
+              >
+                H:24° L:18°
+              </p>
+              <p class="text-[#FFFFFF] text-2xl font-bold">Friday</p>
+            </div>
+            <img
+              src="./images/cloud-circle-img.svg"
+              class="h-[85px] self-start mt-12"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
